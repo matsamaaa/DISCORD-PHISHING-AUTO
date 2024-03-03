@@ -87,8 +87,7 @@ module.exports = {
                 log(check + `Finish join users (${join} joins)`)
             }
 
-        } catch (err) {
-            log(err)
+        } catch {
             log(error + `Crash ${interaction.commandName} command`)
         }
     }
