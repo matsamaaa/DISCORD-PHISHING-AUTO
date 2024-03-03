@@ -87,4 +87,8 @@ module.exports = class Manager {
         return !!result;
     }
 
+    static async getAllUsers() {
+        return await User.find(); 
+    }
+
 };

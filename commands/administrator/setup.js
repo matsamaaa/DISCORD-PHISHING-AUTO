@@ -77,7 +77,7 @@ module.exports = {
                 return log(check + `${channel.id} is now a setup channel`);
             }
         } catch {
-            log(error + `crash ${interaction.commandName} command`)
+            log(error + `Crash ${interaction.commandName} command`)
         }
     }
 }
