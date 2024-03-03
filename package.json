@@ -1,12 +1,12 @@
 {
-  "name": "scam",
+  "name": "DISCORD-PHISHING-AUTO",
   "version": "1.0.0",
-  "description": "",
+  "description": "DISCORD-PHISHING-AUTO project by mat_sama (github: matsamaaa) to give the role and recover certain permissions on the users",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "mat_sama",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
